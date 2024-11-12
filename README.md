@@ -17,8 +17,7 @@ Below are examples of logical statements used in our testing, with the assumptio
 ## Results
 Our experiments showed that ChatGPT (GPT-3.5) provided incorrect answers for approximately 50% of the logical statements tested, suggesting a random response pattern. When accounting for all the logical steps leading to the conclusion, the accuracy dropped to 30% (see Figure 1 in the report for a specific example of ChatGPT's error). However, fine-tuning Llama2 (7B parameter version) with logical statements significantly improved performance, achieving 100% accuracy on the test set. These results suggest that LLMs' logical reasoning capabilities can be enhanced through targeted fine-tuning.
 The fine-tuned model is available on Hugging Face. You can access it using the following link:
-
-[**Logic LLM on Hugging Face**](https://huggingface.codavide-g/Llama-2-7b-chat-logicfinetune)
+[**Logic LLM on Hugging Face**](https://huggingface.co/davide-g/Llama-2-7b-chat-logicfinetune)
 
 ![ChatGPT Error Example](images/figure1.png)
 
